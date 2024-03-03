@@ -5,10 +5,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="./bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-    <h1>This is portfolio</h1>
+<body class="container-fluid body">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item navLink">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navLink" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item navLink">
+                            <a class="nav-link navLink" href="#projects">Projects</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section id="home" class="mt-4">
+            <div class="introduction d-flex justify-content-around">
+                <div id="about-Information">
+                    <h1> Amit Kumar Sengar</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos itaque autem possimus in vitae.
+                        Blanditiis
+                        quas alias nostrum libero architecto eligendi sequi placeat quis, vero tenetur, harum pariatur
+                        numquam
+                        ut!
+
+                    </p>
+                </div>
+                <div>
+                    <img id="prfilePic" src="./images/amit.jpg">
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="skills">
+                <h2 class="text-center skillHeading "> SKILLS</h2>
+
+
+                <br /><br />
+                <div class="row text-center mt-4">
+                    <div class="col gap-4">
+                        <img src="./images/react.jpeg" />
+                        <h3 data-aos="zoom-in">React Js</h3>
+                    </div>
+                    <div class="col gap-3">
+                        <img data-aos="zoom-in" src="./images/nextjs.jpeg" />
+
+                        <h3 data-aos="zoom-in">Next-Js</h3>
+
+                    </div>
+                    <div class="col gap-3">
+                        <img data-aos="zoom-in" src="./images/maria.jpg" />
+
+                        <h3 data-aos="zoom-in">MariaDB</h3>
+
+                    </div>
+                </div>
+                <div class="row gap-3 text-center">
+
+                    <div class="col gap-3">
+                        <img data-aos="zoom-in" src="./images/tailwind.jpeg" />
+
+                        <h3 data-aos="zoom-in">Tailwind</h3>
+
+                    </div>
+
+                    <div class="col gap-3">
+                        <img data-aos="zoom-in" src="./images/bootstrap.png" />
+
+                        <h3 data-aos="zoom-in">BootStrap</h3>
+
+                    </div>
+                    <div class="col gap-3">
+                        <img data-aos="zoom-in" src="./images/jquery.jpg" />
+
+                        <h3 data-aos="zoom-in">jQuery</h3>
+
+                    </div>
+                </div>
+                <div class="row gap-3 text-center">
+
+                    <div class="col gap-3">
+                        <img data-aos="zoom-in" src="./images/js.png" />
+
+                        <h3 data-aos="zoom-in">Java Script</h3>
+
+                    </div>
+                    <div class="col gap-3">
+                        <img data-aos="zoom-in" src="./images/html.jpg" />
+
+                        <h3 data-aos="zoom-in">HTML</h3>
+
+                    </div>
+                    <div class="col gap-3">
+                        <img data-aos="zoom-in" src="./images/CSS.jpg" />
+
+                        <h3 data-aos="zoom-in">CSS</h3>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <BR />
+        <section id="projects">
+            <h2 class="text-center projectsHeadding">PROJECTS</h2>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+
 </body>
 
 </html>
