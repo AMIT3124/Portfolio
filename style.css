@@ -44,12 +44,7 @@ section {
     padding-top: 70px;
 }
 
-.skillHeading,
-.projectsHeadding {
-    background-color: rgb(240, 103, 54);
-    color: white;
 
-}
 
 #skills img {
     width: 3.5rem;
@@ -57,19 +52,11 @@ section {
     margin-right: 5px;
 }
 
-#skills {
+#skills,
+#projects {
     padding-top: 70px;
     /* Add padding to the top of the skills section */
     margin-top: 0;
 }
 
 /* project section css */
-
-.projectInfo div {
-    width: 60vw;
-
-}
-
-.projectInfo h4 {
-    text-align: center;
-}
