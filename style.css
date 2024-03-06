@@ -34,6 +34,9 @@
 
 }
 
+#home {
+    background-image: linear-gradient(to right, rgb(201, 236, 236), rgb(239, 242, 245));
+}
 
 
 section {
@@ -69,3 +72,9 @@ section {
 }
 
 /* project section css */
+
+@media screen and (max-width: 768px) {
+    #carddiv {
+        width: 100%;
+    }
+}
