@@ -87,6 +87,18 @@ section {
     height: 500px;
 }
 
+.certificatesImg:hover {
+    width: 510px;
+    height: 510px;
+}
+
+#acdemicsList {
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+
+}
 
 /* project section css */
 
@@ -95,7 +107,7 @@ section {
         width: 100%;
     }
 
-    .certificatesImg {
+    #certificates {
         display: block;
         width: 100%;
     }
